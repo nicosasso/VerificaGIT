@@ -23,6 +23,13 @@ namespace VerificaGIT
             this.libri = libri;
         }
 
+        public string Nome { get { return nome; } set { nome = value; } }
+        public string Indirizzo { get { return indirizzo; } set { indirizzo = value; } }
+        public string Orario_Apertura { get { return orario_apertura; } set { orario_apertura = value; } }
+        public string Orario_Chiusura { get { return orario_chiusura; } set { orario_chiusura = value; } }
+        public List<Libro> Libri { get { return libri; } set { libri = value; } }
+
+
         public void AggiungiLibro(Libro libro)
         {
             libri.Add(libro);
