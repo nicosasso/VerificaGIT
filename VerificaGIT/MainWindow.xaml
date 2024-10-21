@@ -20,7 +20,7 @@
         <Button Content="CALCOLCA" HorizontalAlignment="Left" Margin="250,289,0,0" VerticalAlignment="Top" Click="Calcola_Click"/>
         <TextBox HorizontalAlignment="Left" Height="49" Margin="28,279,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" x:Name="Numero"/>
         <Button Content="CLICCA PER SAPERE TEMPO DI LETTURA" HorizontalAlignment="Left" Margin="538,217,0,0" VerticalAlignment="Top" Height="60" Width="220" x:Name="TempoLettura" Click="Lettura_CLick"/>
-        <TextBox HorizontalAlignment="Left" Margin="588,290,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Name="tempo"/>
+        <Button Content="TOSTRING" HorizontalAlignment="Left" Margin="538,304,0,0" VerticalAlignment="Top" Height="60" Width="220" x:Name="TempoLettura_Copia" Click="String_CLick"/>
 
     </Grid>
 </Window>
