@@ -20,5 +20,42 @@ namespace VerificaGIT
         {
             InitializeComponent();
         }
+
+        private void Aggiungi_Click(object sender, RoutedEventArgs e)
+        {
+            if (Autore.Text == "" || Titolo.Text == "" || AnnoPubblicazione.Text == "" || Editore.Text == "" || Pagine.Text == "")
+                MessageBox.Show("Ci sono dei campi vuoti, riempili"); 
+            //else
+            //{
+            //    Libro libro = new Libro(Autore.Text, Titolo.Text, AnnoPubblicazione.Text, Editore.Text, Pagine.Text);
+                
+            //}
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (TitoloTrovare.Text == "")
+                MessageBox.Show("Devi inserire un titolo valido. riprova");
+            //else
+            //{
+            //    TODO: Richiamare la funzione corretta
+
+            //}
+        }
+
+        private void Calcola_Click(object sender, RoutedEventArgs e)
+        {
+            // Numero.Text = TODO
+        }
+
+        private void Lettura_CLick(object sender, RoutedEventArgs e)
+        {
+            if (Autore.Text == "" || Titolo.Text == "" || AnnoPubblicazione.Text == "" || Editore.Text == "" || Pagine.Text == "")
+                MessageBox.Show("Ci sono dei campi vuoti, riempili");
+            else
+            {
+                //TODO: richiamare funzione corretta
+            }
+        }
     }
 }

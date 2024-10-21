@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBox HorizontalAlignment="Left" Height="45" Margin="25,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="87" Name="Autore"/>
+        <TextBox HorizontalAlignment="Left" Height="45" Margin="137,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="87" Name="Titolo"/>
+        <TextBox HorizontalAlignment="Left" Height="45" Margin="250,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="87" Name="AnnoPubblicazione"/>
+        <TextBox HorizontalAlignment="Left" Height="45" Margin="368,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="87" Name="Editore"/>
+        <TextBox HorizontalAlignment="Left" Height="45" Margin="485,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="87" Name="Pagine"/>
+        <Button Content="AGGIUNGI LIBRO" HorizontalAlignment="Left" Margin="641,39,0,0" VerticalAlignment="Top" Height="47" Width="107" Name="Aggiungi" Click="Aggiungi_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="49" Margin="25,168,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" Name="TitoloTrovare"/>
+        <Label Content="Inserisci il titolo per trovare il libro" HorizontalAlignment="Left" Margin="25,137,0,0" VerticalAlignment="Top"/>
+        <Button Content="TROVA" HorizontalAlignment="Left" Margin="250,182,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label Content="Clicca per avere il numero di libri nella biblioteca" HorizontalAlignment="Left" Margin="28,234,0,0" VerticalAlignment="Top" Width="266" Height="26"/>
+        <Button Content="CALCOLCA" HorizontalAlignment="Left" Margin="250,289,0,0" VerticalAlignment="Top" Click="Calcola_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="49" Margin="28,279,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" x:Name="Numero"/>
+        <Button Content="CLICCA PER SAPERE TEMPO DI LETTURA" HorizontalAlignment="Left" Margin="538,217,0,0" VerticalAlignment="Top" Height="60" Width="220" x:Name="TempoLettura" Click="Lettura_CLick"/>
+        <TextBox HorizontalAlignment="Left" Margin="588,290,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Name="tempo"/>
 
     </Grid>
 </Window>
